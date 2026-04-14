@@ -13,11 +13,24 @@ justify-content: center;
 }
 section{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center
+}
+.cards-list{
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
 }
-
-card-list{
-
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
