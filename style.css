@@ -1,10 +1,23 @@
 nav{
     display: flex;
     justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    word-spacing: 10px;
 }
 header{
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+}
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+card-list{
+
 }
