@@ -1,9 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
     word-spacing: 10px;
+    padding: 20px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+a:active {
+  text-decoration: underline;
+  color: black;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
 }
 header{
 display: flex;
@@ -31,6 +59,8 @@ section{
     flex-direction: column;
 }
 footer{
-    display: flex;
-    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
